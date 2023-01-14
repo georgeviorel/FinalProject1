@@ -1,4 +1,4 @@
-package org.example;
+package com.itfactory;
 
 import java.util.Scanner;
 

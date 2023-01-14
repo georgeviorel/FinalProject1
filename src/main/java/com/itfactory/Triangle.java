@@ -1,4 +1,4 @@
-package org.example;
+package com.itfactory;
 
 public class Triangle implements Perimeter{
     private int l1;

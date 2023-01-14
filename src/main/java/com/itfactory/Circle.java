@@ -1,4 +1,4 @@
-package org.example;
+package com.itfactory;
 
 public class Circle implements Perimeter{
     private int r;

@@ -1,4 +1,4 @@
-package org.example;
+package com.itfactory;
 
 public interface Perimeter {
 
