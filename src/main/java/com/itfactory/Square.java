@@ -1,9 +1,9 @@
 package com.itfactory;
 
 public class Square implements Perimeter{
-    private int l;
+    private double l;
 
-    public Square(int l) {
+    public Square(double l) {
         this.l = l;
     }
 

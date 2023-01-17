@@ -1,11 +1,11 @@
 package com.itfactory;
 
 public class Triangle implements Perimeter{
-    private int l1;
-    private int l2;
-    private int l3;
+    private double l1;
+    private double l2;
+    private double l3;
 
-    public Triangle(int l1, int l2, int l3) {
+    public Triangle(double l1, double l2, double l3) {
         this.l1 = l1;
         this.l2 = l2;
         this.l3 = l3;

@@ -1,10 +1,10 @@
 package com.itfactory;
 
 public class Circle implements Perimeter{
-    private int r;
+    private double r;
     private final double PI = 3.141592653589;
 
-    public Circle(int r) {
+    public Circle(double r) {
         this.r = r;
     }
 
