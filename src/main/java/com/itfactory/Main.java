@@ -49,7 +49,7 @@ public class Main {
         int l3 = Integer.parseInt(scanner.nextLine());
 
         Perimeter triangle = new Triangle(l1,l2,l3);
-        triangle.perimeter();
+        System.out.println("\nPerimetrul triunghiului este: " + triangle.perimeter());
         //scanner.close();
     }
 
@@ -59,7 +59,7 @@ public class Main {
         int l = Integer.parseInt(scanner.nextLine());
 
         Perimeter square = new Square(l);
-        square.perimeter();
+        System.out.println("\nPerimetrul dreptunghiului este: " + square.perimeter());
         //scanner.close();
     }
 
@@ -69,6 +69,6 @@ public class Main {
         int r = Integer.parseInt(scanner.nextLine());
 
         Perimeter circle = new Circle(r);
-        circle.perimeter();
+        System.out.println("\nPerimetrul (lungimea) cercului este: " + circle.perimeter());
     }
 }

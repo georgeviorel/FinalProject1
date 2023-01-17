@@ -9,7 +9,8 @@ public class Circle implements Perimeter{
     }
 
     @Override
-    public void perimeter() {
-        System.out.println("\nPerimetrul (lungimea) cercului este: " + (2*PI*r));
+    public double perimeter() {
+        //System.out.println("\nPerimetrul (lungimea) cercului este: " + (2*PI*r));
+        return 2*PI*r;
     }
 }

@@ -8,7 +8,8 @@ public class Square implements Perimeter{
     }
 
     @Override
-    public void perimeter() {
-        System.out.println("\nPerimetrul dreptunghiului este: " + (l*4));
+    public double perimeter() {
+        //System.out.println("\nPerimetrul dreptunghiului este: " + (l*4));
+        return l*4;
     }
 }

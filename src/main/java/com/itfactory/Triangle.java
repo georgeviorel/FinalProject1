@@ -12,7 +12,8 @@ public class Triangle implements Perimeter{
     }
 
     @Override
-    public void perimeter() {
-        System.out.println("\nPerimetrul triunghiului este: " + (l1+l2+l3));
+    public double perimeter() {
+        //System.out.println("\nPerimetrul triunghiului este: " + (l1+l2+l3));
+        return l1+l2+l3;
     }
 }
